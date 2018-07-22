@@ -1,27 +1,56 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My New Project</title>
-    <style type="text/css">
-        h1{
-                color:red;
-                font-size: 19px;
-
-            }
-        body{
-
-            background-color: #7FFF00;
-            width: 450px;
-        }
-    </style>
-    <link rel="stylesheet" type="text/css" media="screen" href="style/stylesheet.css" />
-    
-</head>
-<body>
-        <a href="home.html"> Go back home</a>
-        <h1>
-            red on a black background
-        </h1>
-        <h1 style="color:blue">Blue text on black background!</h1>
-</body>
+    <head>
+        <title>XeroSource</title>
+        <link rel="stylesheet" type="text/css" href="styles/global.css"/>
+        <meta name="viewport" content="width=device-width,initial-scale: 1.0, user-scalabe=0"/>
+        <script src="scripts/jquery-3.3.1.min.js"></script>
+        <script src="scripts/general.js"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="logo"><a href="#">Xero<span>Source</span></a></div>
+        </div>
+        <a class="mobile" href="#">MENU</a>
+        <div id="container">
+            <div class="sidebar">
+                <ul id="nav">
+                    <li><a class="selected" href="#">Dashboard</a></li>
+                    <li><a href="#">Booter Hub</a></li>
+                    <li><a href="#">Stresser</a></li>
+                    <li><a href="#">Friends</a></li>
+                    <li><a href="#">Search</a></li>
+                    <li><a href="#">Purchase</a></li>
+                </ul> 
+            </div>
+            <div class="content">
+                <h1>Dashboard</h1>
+                <p>Here you can do stuffz</p>
+                <div id="box">
+                    <div class="box-top">News</div>
+                    <div class="box-panel">
+                        This is some simple news 01
+                    </div>
+                </div>
+                <div id="box">
+                        <div class="box-top">News</div>
+                        <div class="box-panel">
+                            This is    some simple news 02
+                        </div>
+                    </div>
+                    <div id="box">
+                            <div class="box-top">News</div>
+                            <div class="box-panel">
+                                This is some simple news 03
+                            </div>
+                        </div>
+                        <div id="box">
+                                <div class="box-top">News</div>
+                                <div class="box-panel">
+                                    This is some simple news 04
+                                </div>
+                            </div>
+            </div>
+        </div>
+        </body>
 </html>
